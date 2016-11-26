@@ -12,3 +12,4 @@ $ docker run -rm -v $PWD:/src jgornowich/docker-protobuf --cpp_out=. *.proto
 
 # Enter the container to see what is there
 $ docker run -ti --entrypoint /bin/bash jgornowich/docker-protobuf
+```
